@@ -1,25 +1,25 @@
 /* SidianBankPage.css */
 
 h1 {
-  @apply text-5xl text-gray-800 my-2 font-semibold
+  @apply text-5xl text-gray-800 my-5 font-semibold
 }
 
 h2 {
-  @apply text-4xl text-gray-700 my-2 font-semibold
+  @apply text-4xl text-gray-700 mt-2 font-semibold
 }
 
 h3 {
-  @apply text-3xl text-gray-600 my-2 font-semibold
+  @apply text-3xl text-gray-600 my-5 font-semibold
 }
 
 h4 {
-  @apply text-2xl text-gray-500 my-2 font-semibold
+  @apply text-2xl text-gray-500 my-5 font-semibold
 }
 
 h5 {
-  @apply text-xl text-gray-400 my-2 font-semibold
+  @apply text-xl text-gray-400 my-5 font-semibold
 }
 
 h6 {
-  @apply text-lg text-gray-300 my-2 font-semibold
+  @apply text-lg text-gray-300 my-5 font-semibold
 }

@@ -31,7 +31,7 @@ export const Products = () => {
   const router = useRouter();
 
   return (
-    <section className="py-12 bg-white text-blue-900 container mx-auto px-4">
+    <section className="py-12 bg-white text-black/80 container mx-auto px-4">
       <div className="container mx-auto text-center">
         <h2 className="text-4xl font-bold mb-3">Our Products</h2>
         <p className="text-gray-600 mb-8">Here&apos;  s how it works.</p>
@@ -39,10 +39,10 @@ export const Products = () => {
           {products.map((product, index) => (
             <div
               key={index}
-              className="p-6 border rounded-lg shadow-md flex flex-col justify-between gap-5 transition-shadow bg-blue-50"
+              className="p-6 border rounded-lg shadow-md flex flex-col justify-between gap-5 transition-shadow bg-yellow-50"
             >
               <div>
-                <h3 className="text-lg font-semibold mb-2 text-blue-700">
+                <h3 className="text-lg font-semibold mb-2 text-black/70">
                   {product.step}
                 </h3>
                 <h4 className="text-xl font-bold mb-4">{product.title}</h4>

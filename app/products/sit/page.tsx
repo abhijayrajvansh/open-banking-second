@@ -23,7 +23,7 @@ export default function ApiDocsPage() {
       <div className="bg-primary text-white p-8 flex justify-around px-1">
         <div>
           <h1 className="text-4xl font-bold mb-2">TEST IN SIT ENVIRONMENT</h1>
-          <p className="text-gray-100">
+          <p className="text-black/80">
             Discover the full potential of our APIs and try them out for
             yourself in our secure sandbox environment.
           </p>
@@ -68,7 +68,7 @@ export default function ApiDocsPage() {
                   </Button>
                   <Button
                     onClick={() => router.push('/apis/sandbox')}
-                    className="text-white"
+                    className="text-black"
                   >
                     View Details
                   </Button>

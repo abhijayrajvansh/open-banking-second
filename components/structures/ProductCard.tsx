@@ -46,7 +46,7 @@ const ProductCard = ({ product }: ProductCardProps ) => {
         </div>
         <CardFooter className='flex gap-3'>
           <Button variant={'outline'} className="w-full font-semibold">Docs</Button>
-          <Button onClick={handleViewDetails} className="w-full font-semibold text-white">View Details</Button>
+          <Button onClick={handleViewDetails} className="w-full font-semibold text-black">View Details</Button>
         </CardFooter>
       </Card>
     );

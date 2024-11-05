@@ -29,8 +29,8 @@ const ContactForm = () => {
   return (
     <div className="flex justify-center items-center min-h-screen">
       <div className="p-8 rounded-lg shadow-md w-full max-w-md">
-        <h2 className="text-2xl font-bold mb-6 text-blue-900">Get in touch</h2>
-        <p className="text-gray-400 mb-8">
+        <h2 className="text-2xl font-bold mb-6 text-black/80">Get in touch</h2>
+        <p className="text-gray-800 mb-8">
           We are here to get you started with your open banking journey. Contact us now.
         </p>
         <form onSubmit={handleSubmit}>
@@ -74,7 +74,7 @@ const ContactForm = () => {
               rows={4}
             />
           </div>
-          <Button className="w-full bg-blue-500 hover:bg-blue-600 text-white">
+          <Button className="w-full bg-primary hover:bg-yellow-300 text-black">
             Send
           </Button>
         </form>

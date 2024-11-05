@@ -10,7 +10,7 @@ const page = () => {
 
         <div>
           <Image height={600} width={600}
-            src="/images/flat-design-illustration-customer-support_23-2148887720.avif"
+            src="/images/contact-us-image.webp"
             alt="Contact Illustration"
           />
         </div>
