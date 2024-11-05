@@ -1,6 +1,7 @@
-import React from 'react';
-import '@/components/pages/Sidianbank.css'
-import { FaRegUser } from "react-icons/fa";
+// 'use client'
+
+import React, { useEffect, useState } from "react";
+import "@/components/pages/Sidianbank.css";
 
 const SidianBankPage = () => {
   const htmlContent = `<!DOCTYPE html>
@@ -1191,47 +1192,39 @@ color: #000;
 
   <!-- Existing icons -->
   <div class="inner-icon">
-    <a href="/digital-banking/">
       <span>
         <img width="500" height="500" decoding="async"
           class="biashara_img"
-          src="/wp-content/uploads/2023/11/Our-Banking-Channels-removebg-preview.png"
+          src="/images/img2.png"
         />
       </span>
-    </a>
   </div>
 
   <div class="inner-icon">
-    <a href="/about-sidian-bank/">
       <span>
         <img width="500" height="500" decoding="async"
           class="biashara_img"
-          src="/wp-content/uploads/2024/01/ABOUT_SIDIAN_BANK-removebg-preview-1.png"
+          src="/images/img3.png"
         />
       </span>
-    </a>
   </div>
 
   <div class="inner-icon">
-    <a href="/about-sidian-bank/#careers-at-SidianBank">
       <span>
         <img width="500" height="500" decoding="async"
           class="biashara_img"
-          src="/wp-content/uploads/2024/01/CAREERS__2_-removebg-preview-1.png"
+          src="/images/img4.png"
         />
       </span>
-    </a>
   </div>
 
-  <div class="inner-icon">
-    <a href="/branches-atms/">
+  <div class="inner-icon">  
       <span>
         <img width="500" height="500" decoding="async"
           class="biashara_img"
-          src="/wp-content/uploads/2024/01/LOCATE_US1-removebg-preview.png"
+          src="/images/img5.png"
         />
       </span>
-    </a>
   </div>
 </div>
 
@@ -1789,11 +1782,7 @@ if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_c
 		</body>
 </html>`;
 
-  return (
-    <div
-      dangerouslySetInnerHTML={{ __html: htmlContent }}
-    />
-  );
+  return <div dangerouslySetInnerHTML={{ __html: htmlContent }} />;
 };
 
 export default SidianBankPage;
