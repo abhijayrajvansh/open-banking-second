@@ -1159,20 +1159,23 @@ color: #000;
 
 	<div class="wpb_text_column wpb_content_element" >
 		<div class="wpb_wrapper">
-			<h2 class="">Open an Account Online</h2>
+			<h2>API Developer Portal</h2>
+      <p style="width: 60%; margin-top: 15px;">Unlock the power of financial data with our secure and scalable Open Banking API. Build innovative fintech solutions faster than ever before.</p>
+
 
 		</div>
 	</div>
-<div class="vc_btn3-container vc_btn3-inline vc_custom_1727851139772 vc_do_btn" ><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-3d vc_btn3-icon-left vc_btn3-color-mulled-wine" href="https://onboarding.sidianbank.co.ke/client-kyc/welcome" title="" target="_blank"><i class="vc_btn3-icon far">
+<div class="vc_btn3-container vc_btn3-inline vc_custom_1727851139772 vc_do_btn" ><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-3d vc_btn3-icon-left vc_btn3-color-mulled-wine" href="/apis"><i class="vc_btn3-icon far">
+
 
 <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 101 101" height="25" id="user">
   <path d="M50.4 54.5c10.1 0 18.2-8.2 18.2-18.2S60.5 18 50.4 18s-18.2 8.2-18.2 18.2 8.1 18.3 18.2 18.3zm0-31.7c7.4 0 13.4 6 13.4 13.4s-6 13.4-13.4 13.4S37 43.7 37 36.3s6-13.5 13.4-13.5zM18.8 83h63.4c1.3 0 2.4-1.1 2.4-2.4 0-12.6-10.3-22.9-22.9-22.9H39.3c-12.6 0-22.9 10.3-22.9 22.9 0 1.3 1.1 2.4 2.4 2.4zm20.5-20.5h22.4c9.2 0 16.7 6.8 17.9 15.7H21.4c1.2-8.9 8.7-15.7 17.9-15.7z" fill="yellow"></path>
 </svg>
 
-</i> Open Account</a></div><div class="vc_btn3-container vc_btn3-inline vc_custom_1727798631618 vc_do_btn" ><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-3d vc_btn3-color-white" href="/digital-account-opening/" title="">Benefits</a></div></div></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1727799208824 vc_row-has-fill vc_row-no-padding"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1727799315854"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid bg-header vc_custom_1697574083634 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-has-fill"><div class="vc_column-inner vc_custom_1678357757501"><div class="wpb_wrapper">
+</i> Get Started</a></div><div class="vc_btn3-container vc_btn3-inline vc_custom_1727798631618 vc_do_btn" ><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-3d vc_btn3-color-white" href="/products" title="">Our Products</a></div></div></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1727799208824 vc_row-has-fill vc_row-no-padding"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1727799315854"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid bg-header vc_custom_1697574083634 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-has-fill"><div class="vc_column-inner vc_custom_1678357757501"><div class="wpb_wrapper">
 	<div class="wpb_text_column wpb_content_element" >
 		<div class="wpb_wrapper">
-			<h2 class="font-white" style="text-align: center;">Home of Biashara Banking</h2>
+			<h2 class="font-white" style="text-align: center; margin-top: -20px;">Home of Biashara Banking</h2>
 
 		</div>
 	</div>
@@ -1233,7 +1236,7 @@ color: #000;
 </div></div></div><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 	<div class="wpb_text_column wpb_content_element vc_custom_1697576934407" >
 		<div class="wpb_wrapper">
-			<h3 class="font-white" style="font-size: 27px; text-align: center;">Daily Foreign Currency Rates</h3>
+			<h3 class="font-white" style="font-size: 27px; text-align: center; margin-top: -20px;">Daily Foreign Currency Rates</h3>
 
 		</div>
 	</div>
