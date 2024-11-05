@@ -9,6 +9,7 @@ interface ProductProps {
   description: string;
   rating: number;
   votes: number;
+  slug: string;
 }
 
 interface ProductCardProps {
@@ -18,8 +19,8 @@ interface ProductCardProps {
 const ProductCard = ({ product }: ProductCardProps ) => {
   const router = useRouter();
 
-  const handleViewDetails = () => {
-    router.push('/apis/sandbox')
+  const handleViewDetails = (slug: string) => {
+    router.push(`/apis/sandbox/${slug}`)
   };
 
   return (
@@ -46,7 +47,7 @@ const ProductCard = ({ product }: ProductCardProps ) => {
         </div>
         <CardFooter className='flex gap-3'>
           <Button variant={'outline'} className="w-full font-semibold">Docs</Button>
-          <Button onClick={handleViewDetails} className="w-full font-semibold text-black">View Details</Button>
+          <Button onClick={() => handleViewDetails(product.slug)} className="w-full font-semibold text-black">View Details</Button>
         </CardFooter>
       </Card>
     );

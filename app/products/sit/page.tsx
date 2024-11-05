@@ -67,7 +67,7 @@ export default function ApiDocsPage() {
                     View Docs
                   </Button>
                   <Button
-                    onClick={() => router.push('/apis/sandbox')}
+                    onClick={() => router.push(`/apis/sandbox/${endpoint.slug}`)}
                     className="text-black"
                   >
                     View Details

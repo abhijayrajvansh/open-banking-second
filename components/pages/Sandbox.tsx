@@ -30,16 +30,15 @@ interface SandboxProps {
   apiCategory: string[];
 }
 
-export default function Sandbox({ apiCategory}: SandboxProps ) {
+export default function Sandbox({ apiCategory }: SandboxProps ) {
   const [isAuthenticated, setIsAuthenticated] = useState<boolean | null>(null);
-  const [endpoint, setEndpoint] = useState("/api/accounts-info");
+  const [endpoint, setEndpoint] = useState(`/api/${apiCategory[0]}`);
   const [method, setMethod] = useState("GET");
   const [requestBody, setRequestBody] = useState("");
   const [responseStatus, setResponseStatus] = useState("");
   const [headers, setHeaders] = useState({ "Subscription-Key": "" });
   const [selectedSdk, setSelectedSdk] = useState<SdkType>("javascript");
 
-  // New: setting different initial responses based on authentication status
   const authenticatedResponse = JSON.stringify(
     { status: "waiting for request" },
     null,
@@ -51,8 +50,6 @@ export default function Sandbox({ apiCategory}: SandboxProps ) {
   );
 
   useEffect(() => {
-    // debug
-    console.log(apiCategory[0])
     const authStatus = localStorage.getItem("isAuthenticated") === "true";
     setIsAuthenticated(authStatus);
 

@@ -8,6 +8,7 @@ export const products = [
     votes: 14,
     description: "Transfer money to accounts and external accounts",
     category: "PAYMENTS",
+    slug: 'corporate-payments'
   },
   {
     name: "Corporate Collections",
@@ -16,6 +17,7 @@ export const products = [
     votes: 7,
     description: "Services for recurring deposit and fixed deposit",
     category: "ENQUIRY",
+    slug: 'corporate-collections'
   },
   {
     name: "Transactions",
@@ -24,6 +26,7 @@ export const products = [
     votes: 8,
     description: "Services for transactions",
     category: "MOBILE MONEY PAYMENT",
+    slug: 'transactions'
   },
   {
     name: "Account Balance",
@@ -32,6 +35,7 @@ export const products = [
     votes: 10,
     description: "Enquiry service for balance check",
     category: "ENQUIRY",
+    slug: 'account-balance'
   },
   {
     name: "Payment Status",
@@ -40,5 +44,6 @@ export const products = [
     votes: 12,
     description: "Service to check payment status",
     category: "PAYMENTS",
+    slug: 'payment-status'
   }
 ];
