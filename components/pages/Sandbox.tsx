@@ -26,7 +26,11 @@ import { SdkType } from "@/types/codeSnippet-sdk.type";
 import codeSnippets from "@/lib/codeSnippets";
 import { mockEndpoints, defaultStatusMsg } from "@/lib/mockAPIendpoints";
 
-export default function Sandbox() {
+interface SandboxProps {
+  apiCategory: string[];
+}
+
+export default function Sandbox({ apiCategory}: SandboxProps ) {
   const [isAuthenticated, setIsAuthenticated] = useState<boolean | null>(null);
   const [endpoint, setEndpoint] = useState("/api/accounts-info");
   const [method, setMethod] = useState("GET");
@@ -47,6 +51,8 @@ export default function Sandbox() {
   );
 
   useEffect(() => {
+    // debug
+    console.log(apiCategory[0])
     const authStatus = localStorage.getItem("isAuthenticated") === "true";
     setIsAuthenticated(authStatus);
 

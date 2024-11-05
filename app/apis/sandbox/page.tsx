@@ -1,7 +1,7 @@
-import Sandbox from "@/components/pages/Sandbox";
+import { redirect } from 'next/navigation'
 
 const page = () => {
-  return <Sandbox />;
+  redirect("/apis/sandbox/corporate-payments");
 };
 
 export default page;

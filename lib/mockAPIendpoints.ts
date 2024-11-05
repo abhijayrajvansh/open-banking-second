@@ -6,7 +6,7 @@ export const defaultStatusMsg = `{
 }`
 
 export const mockEndpoints: Record<string, EndpointResponse> = {
-  "/api/accounts-info": {
+  "/api/corporate-payments": {
     method: "GET",
     response: {
       accounts: [
