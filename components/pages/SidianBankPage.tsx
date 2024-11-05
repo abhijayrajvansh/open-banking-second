@@ -228,7 +228,7 @@ body a{
     padding: 0px 30px 40px;
     border-radius: 3px;
     background: #dbdbdb;
-    display: none;
+
 }
 
 .btn-center {
@@ -1159,7 +1159,7 @@ color: #000;
 
 	<div class="wpb_text_column wpb_content_element" >
 		<div class="wpb_wrapper">
-			<h2>API Developer Portal</h2>
+			<h2 style="padding-top: 15px;">API Developer Portal</h2>
       <p style="width: 60%; margin-top: 15px;">Unlock the power of financial data with our secure and scalable Open Banking API. Build innovative fintech solutions faster than ever before.</p>
 
 
