@@ -31,7 +31,7 @@ const Login = () => {
         onSubmit={handleLogin}
         className="p-6 bg-white dark:bg-card shadow-md rounded-lg w-[500px] px-10"
       >
-        <h1 className="text-3xl text-blue-900 font-semibold py-3 mb-5">
+        <h1 className="text-3xl text-black/80 font-semibold py-3 mb-5">
           Login
         </h1>
         {error && <p className="text-red-500 text-center mb-4">{error}</p>}
