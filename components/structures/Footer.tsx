@@ -6,14 +6,14 @@ import { Button } from "../ui/button";
 const Footer = () => {
   return (
     <div className="p-4">
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-primary rounded-xl text-white">
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-[#fbed20] rounded-xl text-black">
         <div className="px-4 md:px-6">
           <div className="flex flex-col items-center space-y-4 text-center">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
                 Ready to get started?
               </h2>
-              <p className="mx-auto max-w-[600px] text-white/80 md:text-xl">
+              <p className="mx-auto max-w-[600px] text-black/80 md:text-xl">
                 Sign up now to get your API keys and start building the future
                 of finance.
               </p>
@@ -32,7 +32,7 @@ const Footer = () => {
                   Sign Up
                 </Button>
               </form>
-              <p className="text-xs text-white/80">
+              <p className="text-xs text-black/80">
                 By signing up, you agree to our{" "}
                 <Link className="underline underline-offset-2" href="#">
                   Terms & Conditions

@@ -26,13 +26,18 @@ const Header = () => {
 
   const handleLogout = () => {
     logout();
-    setAlreadyLoggedin(false); 
+    setAlreadyLoggedin(false);
   };
 
   return (
-    <div className="flex justify-between py-3 px-10 mb-6 border-b items-center shadow-md bg-white text-black">
+    // border-b shadow-md add this to down after removing the homepage
+    <div className="flex justify-around px-10 mb-6  items-end  bg-white text-black">
       <Link href={"/"}>
-        <div className="font-bold text-2xl text-gray-600">OpenBank API.</div>
+        <img
+          src="/images/Sidian-bank-Logo-1.png"
+          alt="sidian-bank-logo"
+          className="h-[65px]"
+        />
       </Link>
       <div className="flex items-center gap-5">
         <div className="flex items-center gap-6 mr-6">
@@ -77,7 +82,7 @@ const Header = () => {
           <>
             <Button
               onClick={() => router.push("/login")}
-              className="font-semibold border-primary text-primary hover:bg-primary hover:text-white"
+              className="font-semibold border-black text-black hover:bg-primary"
               variant={"outline"}
             >
               Login
