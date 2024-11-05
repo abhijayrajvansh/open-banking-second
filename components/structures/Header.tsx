@@ -31,13 +31,9 @@ const Header = () => {
 
   return (
     // border-b shadow-md add this to down after removing the homepage
-    <div className="flex justify-around px-10 mb-6  items-end  bg-white text-black">
+    <div className="flex justify-around px-10 mb-6 border-b shadow-md  items-center bg-white text-black">
       <Link href={"/"}>
-        <img
-          src="/images/Sidian-bank-Logo-1.png"
-          alt="sidian-bank-logo"
-          className="h-[65px]"
-        />
+        <h1 className="text-2xl font-semibold py-5">OpenBank API</h1>
       </Link>
       <div className="flex items-center gap-5">
         <div className="flex items-center gap-6 mr-6">
