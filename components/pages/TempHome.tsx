@@ -19,14 +19,20 @@ const HomePage = () => {
           </p>
           <div className="space-x-4">
             <button className="bg-gray-800 text-white px-6 py-2 rounded-md hover:bg-gray-700 transition">
+              <Link href={'/apis'}>
               Get Started
+              </Link>
             </button>
             <button className="bg-white text-gray-800 px-6 py-2 rounded-md hover:bg-gray-100 transition">
+              <Link href={'/products'}>
               Our Products
+              </Link>
             </button>
           </div>
         </div>
       </section>
+
+      <img src="/images/temp-banner.png" alt="banner" />
 
       {/* Features Grid */}
       <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100">
