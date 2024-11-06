@@ -83,12 +83,12 @@ const Header = () => {
             >
               Login
             </Button>
-            <Button
+            {/* <Button
               onClick={() => router.push("/login")}
               className="font-semibold"
             >
               Sign Up
-            </Button>
+            </Button> */}
           </>
         ) : (
           <Button
